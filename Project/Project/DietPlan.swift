@@ -126,7 +126,7 @@ struct DietPlan: View {
     }
     
     func fetchChatGPTResponse(prompt: String, completion: @escaping (String) -> Void) {
-        let apiKey = "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"
+        let apiKey = "YOUR-API-KEY"
         let url = URL(string: "https://api.openai.com/v1/chat/completions")!
            
         let requestData: [String: Any] = [
